@@ -1,6 +1,6 @@
 jupyter
 pandas
-numpy
+numpy==1.24.3
 requests
 tiktoken
 matplotlib
@@ -12,7 +12,11 @@ PyPDF2
 markdown2
 langchain-community
 langchain-core
-sentence-transformers
-faiss-cpu
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
 langchain-openai
 python-dotenv
+spacy==3.7.2
+tqdm==4.66.1
+torch==2.1.0
+transformers==4.34.0
